@@ -8,10 +8,10 @@ Gem::Specification.new do |spec|
   spec.version       = Cosmicrawler::VERSION
   spec.authors       = ["Toshiaki Koshiba"]
   spec.email         = ["koshiba+github@4038nullpointer.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
-  spec.license       = "MIT"
+  spec.description   = 'Cosmicrawler is crawler library for Ruby. It provides scalable asynchronous crawling by (http|file|etc) using EventMachine.'
+  spec.summary       = 'Cosmicrawler is crawler library for Ruby. It provides scalable asynchronous crawling by (http|file|etc) using EventMachine.'
+  spec.homepage      = "https://github.com/bash0C7/cosmicrawler"
+  spec.license       = "Ruby"
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
