@@ -1,6 +1,9 @@
+
 # Cosmicrawler
 
 Cosmicrawler is crawler library for Ruby. It provides scalable asynchronous crawling by http, file, etc using [EventMachine](https://github.com/eventmachine/eventmachine).
+
+[![Build Status](https://travis-ci.org/(https://travis-ci.org/bash0C7/cosmicrawler.png)](https://travis-ci.org/bash0C7/cosmicrawler)
 
 ## Installation
 
