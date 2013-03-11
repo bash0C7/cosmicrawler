@@ -34,7 +34,7 @@ Cosmicrawler.http_crawl(%w(http://example.com/1 http://example.com/2)) {|request
 
 ````ruby
 require 'cosmicrawler'
-require'em-http-request'
+require 'em-http-request'
 
 Cosmicrawler.each(%w(http://example.com/1 http://example.com/2)) {|item|
   request = EM::HttpRequest.new(item)
@@ -51,3 +51,7 @@ Cosmicrawler.each(%w(http://example.com/1 http://example.com/2)) {|item|
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## License
+
+Ruby's License
